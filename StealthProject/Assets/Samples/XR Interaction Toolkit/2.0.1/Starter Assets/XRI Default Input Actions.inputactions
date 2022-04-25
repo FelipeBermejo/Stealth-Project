@@ -97,6 +97,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "HandTrigger",
+                    "type": "Value",
+                    "id": "f4f0685f-1d01-4ca4-9b65-64715d35962d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -218,6 +227,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "HandGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d74c19c-d758-4c52-a606-51790ff0e5de",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HandTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -635,6 +655,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "HandTrigger",
+                    "type": "Value",
+                    "id": "90922d66-1c22-4167-8e86-e47e286292b2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -756,6 +785,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "HandGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f82f853-e9e7-41f1-acc5-6eb6202d6e79",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HandTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
